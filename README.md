@@ -3,6 +3,7 @@
 Wordle Applet in terminal. Heavy inspiration from [Wordlet](https://github.com/scottluptowski/wordlet); if you want a higher quality applet, I suggest you check this out.
 ##How to run
 Just download rust by running this in terminal
+(btw, do not copy the dollar signs)
 ```
 $ curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 ```
@@ -22,6 +23,15 @@ and then
 $ cargo run
 ```
 in order to initialize the applet!
+
+Alternatively, run:
+```
+$ git clone https://github.com/frumpy4/termordle.git
+$ cd termordle
+$ cargo build
+$ cargo run
+```
+
 Hope you enjoy playing wordle ;)
 
 also, I'd heavily suggest not looking at the `solutions.txt` text file while playing. That'd be cheating after all! (;
