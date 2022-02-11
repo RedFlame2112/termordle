@@ -26,8 +26,8 @@ enum HInfo{
 impl std::fmt::Display for GERROR {
     fn fmt(&self, form: &mut std::fmt::Formatter) -> std::fmt::Result {
         match self {
-            GERROR::BadLength => write!(form, "Invalid length"),
-            GERROR::InvalidWord => write!(form, "Not in list"),
+            GERROR::BadLength => write!(form, "Length NOT Gode!"),
+            GERROR::InvalidWord => write!(form, "This is not in the list bruh"),
         }
     }
 }
