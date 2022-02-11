@@ -214,6 +214,9 @@ fn g_loop(mut g_state: GState) {
     if !g_state.won() {
         println!("Aww poop! Better luck next time. The word was: {}", g_state.word);
     }
+    if g_state.won() {
+        println!("Congratulations! You won!");
+    }
 }
 
 fn init(any_word: bool, wfile: Option<&str>) -> GState {
