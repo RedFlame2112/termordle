@@ -1,0 +1,16 @@
+[package]
+name = "termordle"
+version  = "0.1.0"
+license = "GNU GPLv3"
+readme = "README.md"
+homepage = "https://github.com/RedFlame2112/termordle"
+repository = "https://github.com/RedFlame2112/termordle"
+keywords = ["worldle", "rust", "game", "terminal"]
+categories = ["games"]
+edition = "2021"
+
+
+[dependencies]
+termion = "*"
+rand = "0.8.4"
+clap = { version = "3.0.14", features = ["derive"] }
