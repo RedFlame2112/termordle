@@ -39,3 +39,6 @@ if you are correct within 6 tries, EPIC gamer
 if you are incorrect, welp. Better luck next time! The solution is given then. Add the word to your personal dictionary ;)
 
 GLHF!
+
+### Example game:
+![example](https://cdn.discordapp.com/attachments/819417070185480202/941820750296416296/unknown.png)
