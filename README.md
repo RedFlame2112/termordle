@@ -1,7 +1,9 @@
 # termordle
 
 Wordle Applet in terminal. Heavy inspiration from [Wordlet](https://github.com/scottluptowski/wordlet); if you want a higher quality applet, I suggest you check this out.
-##How to run
+
+## How to run
+
 If you are on a **linux or macOS** operated machine, just download rust by running this in terminal
 (btw, do not copy the dollar signs)
 ```
@@ -10,6 +12,12 @@ $ curl https://sh.rustup.rs -sSf | sh
 If you are on a **windows** operated machine, go to this [installer](https://win.rustup.rs/)
 
 Afterwards, download the source as a .zip and unzip the files. I'd suggest you put the files into a new, decluttered folder you can easily access.
+Alternatively, you can clone this repository using `git clone https://github.com/RedFlame2112/termordle` if you have git installed. Then just head to:
+```
+$ cd termordle
+$ cargo build
+$ cargo run
+```
 
 Head to that folder by running
 ```
