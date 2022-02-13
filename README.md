@@ -30,7 +30,7 @@ in order to initialize the applet!
 
 Alternatively, run:
 ```
-$ git clone https://github.com/frumpy4/termordle.git
+$ git clone https://github.com/RedFlame2112/termordle.git
 $ cd termordle
 $ cargo build
 $ cargo run
