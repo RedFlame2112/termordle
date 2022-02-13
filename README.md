@@ -1,5 +1,4 @@
 # termordle
-[![Build Status](https://api.travis-ci.org/joemccann/dillinger.svg)](https://github.com/RedFlame2112/termordle)
 
 
 Wordle Applet in terminal. Heavy inspiration from [Wordlet](https://github.com/scottluptowski/wordlet); if you want a higher quality applet, I suggest you check this out.
