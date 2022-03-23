@@ -57,4 +57,4 @@ if you are incorrect, welp. Better luck next time! The solution is given then. A
 GLHF!
 
 ### Example game:
-![example](https://cdn.discordapp.com/attachments/819417070185480202/941820750296416296/unknown.png)
+![example](https://media.discordapp.net/attachments/819417070185480202/956218088888602644/unknown.png)
