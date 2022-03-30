@@ -3,7 +3,6 @@ use clap::{App, Arg};
 use std::fs::File;
 use std::io::Read;
 use std::io::{stdin, stdout, Write};
-
 use termion::color;
 use termion::event::Key;
 use termion::input::TermRead;
@@ -253,7 +252,17 @@ fn init(any_word: bool, wfile: Option<&str>) -> GState {
     g_state
 }
 fn main() {
-    let matches = App::new("termordle").version("0.1.0").about("An open-source wordle app for terminal written in Rust").arg(Arg::new("any-guess").short('g').long("any-guess").takes_value(false).help("Allow any word to be guessed")).arg(Arg::new("wfile").short('w').long("word-file").takes_value(true).help("Use a word list from a file")).get_matches();
+    let matches = App::new("termordle")
+        .version("0.1.0")
+        .about("An open-source wordle app for terminal written in Rust")
+        .arg(Arg::new("any-guess").short('g').long("any-guess")
+        .takes_value(false)
+        .help("Allow any word to be guessed"))
+        .arg(Arg::new("wfile").short('w')
+        .long("word-file")
+        .takes_value(true)
+        .help("Use a word list from a file"))
+        .get_matches();
     let g_state = init(matches.is_present("any-guess"), matches.value_of("wfile"));
     g_loop(g_state)
 }
